@@ -9,7 +9,7 @@ let gotJokes= false;
 
 // getting a dad joke
 async function getDadJoke(){
-    const response = await fetch("http://icanhazdadjoke.com", {
+    const response = await fetch("https://icanhazdadjoke.com", {
         headers: {
             Accept: "application/json",
         },
